@@ -1,0 +1,7 @@
+name: RealBiomeConditon
+version: ${project.version}
+main: com.strangeone101.realbiomecondition.RealBiomeConditionPlugin
+api-version: 1.16
+depend: [ MythicMobs ]
+authors: [ StrangeOne101 ]
+description: Adds a real biome condition to MythicMobs
