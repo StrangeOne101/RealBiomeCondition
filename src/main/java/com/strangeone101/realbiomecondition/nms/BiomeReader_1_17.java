@@ -33,12 +33,14 @@ public class BiomeReader_1_17 implements IBiomeReader {
     @Override
     public Map<String, Integer> getBiomeMap() {
         if (biomeMap.isEmpty()) {
+
                 getCustomBiomeRegistry().d().forEach(entry -> {//Name, id
                     String name = entry.getKey().a().toString();
                     int id = getCustomBiomeRegistry().getId(entry.getValue());
                         biomeMap.put(name, id);
                         //RealBiomeConditionPlugin.getPlugin().getLogger().info("Debug " + name + " | " + id + " | " + entry.getValue().t().getName());
             });
+
         }
 
 
@@ -46,6 +48,7 @@ public class BiomeReader_1_17 implements IBiomeReader {
     }
 
     private IRegistryWritable<BiomeBase> getCustomBiomeRegistry() {
+
         return ((CraftServer) Bukkit.getServer()).getHandle().getServer().getCustomRegistry().b(IRegistry.aO);
     }
 }

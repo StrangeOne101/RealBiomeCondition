@@ -1,0 +1,20 @@
+Biome Types
+
+plains
+forest
+taiga
+icy
+extreme_hills
+desert
+mesa
+savanna
+jungle
+swamp
+mushroom
+beach
+river
+ocean
+nether
+the_end
+underground
+none
