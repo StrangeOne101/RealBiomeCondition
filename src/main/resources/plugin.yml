@@ -1,6 +1,6 @@
 name: RealBiomeConditon
 version: ${project.version}
-authors: [ StrangeOne101 ]
+authors: [ StrangeOne101, Vatuu, NextdoorPsycho ]
 description: Adds a real biome condition to MythicMobs
 
 main: com.strangeone101.realbiomecondition.Plugin
