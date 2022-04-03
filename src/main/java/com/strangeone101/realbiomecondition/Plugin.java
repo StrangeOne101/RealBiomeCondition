@@ -37,8 +37,4 @@ public final class Plugin extends JavaPlugin implements Listener {
     public static void warn(String message) {
         instance.getLogger().warning(message);
     }
-
-    public static void info(String message) {
-        instance.getLogger().info(message);
-    }
 }
