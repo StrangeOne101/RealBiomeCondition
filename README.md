@@ -2,11 +2,10 @@
 A small side plugin for MythicMobs that adds a condition for checking custom biomes & biome types
 
 # Requirements
-- MythicMobs for 1.18
+- MythicMobs 5.0.2 for 1.18
 - Java 17
-- Spigot 1.18.1
+- Spigot 1.18.2
 
-Note: The plugin requires a manual update every time there is a new minecraft release. This will not be compatible with 1.18 until manually updated.
 # Usage
 This plugin adds two new conditions to MythicMobs. They are `realbiome` and `biometype`
 
