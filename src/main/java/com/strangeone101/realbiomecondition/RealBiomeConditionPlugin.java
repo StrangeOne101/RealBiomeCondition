@@ -1,7 +1,7 @@
 package com.strangeone101.realbiomecondition;
 
-import com.strangeone101.realbiomecondition.nms.BiomeReader_1_17;
-import io.lumine.xikage.mythicmobs.api.bukkit.events.MythicConditionLoadEvent;
+import com.strangeone101.realbiomecondition.nms.BiomeReader_1_18_1;
+import io.lumine.mythic.bukkit.events.MythicConditionLoadEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -24,7 +24,7 @@ public final class RealBiomeConditionPlugin extends JavaPlugin implements Listen
         }
         Bukkit.getPluginManager().registerEvents(this, this);
 
-        biomeReader = new BiomeReader_1_17();
+        biomeReader = new BiomeReader_1_18_1();
     }
 
     public static RealBiomeConditionPlugin getPlugin() {
